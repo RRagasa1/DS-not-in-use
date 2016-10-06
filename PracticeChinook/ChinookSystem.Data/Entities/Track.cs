@@ -25,6 +25,9 @@ namespace ChinookSystem.Data.Entities
         public int Milliseconds { get; set; }
         public int? Bytes { get; set; }
         public decimal UnitPrice { get; set; }
+
+        public virtual Track Tracks { get; set; }
+        //pubilc virtual MediaType MediaTypes { get; set;}
     }
 
 }
